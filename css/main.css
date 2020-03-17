@@ -39,6 +39,24 @@ body{
 
 }
 
+.learn, .join{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text p:nth-child(1){
+    font-size: 0.7rem;
+    text-align: center;
+    color: #555;
+}
+
+.text p:nth-child(2){
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
 .head{
     border: 1px solid black;
     padding-left:20%;
