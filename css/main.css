@@ -1,0 +1,58 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.wrapper{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.top{
+    
+    display:grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "family learn"
+    "family join";
+}
+
+.family{
+    grid-area: family;
+    height: 30rem;
+    background-color: #add8ff;
+    display:flex;
+    align-items: center;
+    
+    
+}
+
+.learn{
+    grid-area: learn;   
+    background-color: #ff8f5d;
+}
+
+.join{
+
+    grid-area: join;
+    background-color: #ffbb55;
+
+}
+
+.head{
+    border: 1px solid black;
+    padding-left:20%;
+    padding-right: 20% ;
+    text-align: left;
+}
+
+h1{
+    
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+
+p{
+    line-height: 1.5rem;
+}
