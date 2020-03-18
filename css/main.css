@@ -358,7 +358,7 @@ button:focus {outline:0;}
     
 }
 
-a{
+.navfooter  a{
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center; 
@@ -366,7 +366,7 @@ a{
     color:#333;
 }
 
-em{
+.navfooter em{
     font-weight: bolder;
     font-size: xx-large;
 }
