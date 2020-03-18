@@ -40,3 +40,82 @@ body{
 
 /*------------------form---------------*/
 
+.contact{
+
+    height: 30rem;
+    width: 100%;
+    background-color: #a99;
+    padding-top: 5rem;
+
+    display: flex;
+    
+    align-items: stretch;
+  
+
+}
+
+.first{
+    
+    width: 50%;
+    padding-left: 4rem;
+}
+
+.second{
+    
+    width: 50%;
+    padding-right: 4rem;
+}
+
+label{
+    color:#fff;
+    padding: 1rem 1rem 1rem 0rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+h2{
+    
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.email{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    display:flex;
+    flex-direction: column;
+}
+
+
+input{
+    border-radius: 5px;
+    height: 2.5rem;
+}
+
+
+
+textarea{
+    height: 10rem;
+    border-radius: 5px;
+    resize: none;
+}
+
+.sub{
+    float: right;
+    margin-top: 3rem;
+    width: 8rem;
+    border-radius: 30px;
+    height: 3rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: none;
+    
+}
+
+.sub:focus {outline:0;}
