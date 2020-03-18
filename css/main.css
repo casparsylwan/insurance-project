@@ -129,3 +129,54 @@ button:focus {outline:0;}
 
 /* ------ finacial saftey frame ----------------------*/
 
+.online{
+    background-color: #a5a5a5;
+
+    display:grid;
+    width: 100%;
+    padding-top: 6rem;
+    row-gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". safety . text ."
+    ". btn . text ."
+    " deals deals deals deals deals";
+
+}
+
+.safety{
+    grid-area: safety;
+}
+
+.btnjoin{
+    grid-area: btn;
+    
+}
+
+.text2{
+    grid-area: text;
+
+    line-height: 1.2rem;
+}
+
+.deals{
+    grid-area: deals;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pic{
+    width: 7rem;
+    height: 7rem;
+    background-image: url("../img/family.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #add8ff;
+}
+
+.about{
+    background-color: #ffbb55;
+}
+
