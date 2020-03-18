@@ -276,7 +276,71 @@ button:focus {outline:0;}
     margin-top: 2rem;
     font-size: 1.2rem;
     font-weight: bold;
-    color:#555;
+    color:#333;
 }
 
+/*------------------six boxes--------------------------*/
 
+.sixboxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vw;
+
+    
+}
+.boxes{
+    
+
+    padding: 1rem;
+    
+    
+
+    
+}
+
+.boxes em{
+
+    font-size: 2rem;
+    color:#333;
+}
+
+.centertext{
+   
+    height: 100%;
+    text-align: center;
+    padding-top: 40%;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.centersmall{
+
+    
+    height: 100%;
+    text-align: center;
+    padding-top: 40%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+    color:#333;
+
+}
+
+.boxes:nth-child(2n){
+    background-color: #fff;
+}
+
+.boxes:nth-child(1){
+    background-color: #dddeff;
+}
+
+.boxes:nth-child(3){
+    background-color: #f1f1ff;
+}
+
+.boxes:nth-child(5){
+    background-color: #ff8f5d;
+}
+
+/*----------Boxes-------------*/
