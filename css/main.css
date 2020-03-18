@@ -49,13 +49,14 @@ body{
 }
 
 .text p:nth-child(1){
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     text-align: center;
     color: #555;
 }
 
 .text p:nth-child(2){
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-top: 1rem;;
     text-align: center;
     color: #fff;
 }
@@ -137,16 +138,19 @@ button:focus {outline:0;}
     width: 100%;
     padding-top: 6rem;
     row-gap: 3rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    ". safety . text ."
-    ". btn . text ."
-    " deals deals deals deals deals";
+    ". safety safety . text text ."
+    ". btn btn . text text ."
+    ". . . . . . ."
+    "deals deals deals deals deals deals deals";
 
 }
 
 .safety{
     grid-area: safety;
+    color:#fff;
+    font-size: 3rem;
     
 }
 
@@ -159,7 +163,10 @@ button:focus {outline:0;}
 .text2{
     grid-area: text;
 
-    line-height: 1.2rem;
+    font-size: 1.2rem;
+    
+    color:#333;
+    line-height: 1.5rem;
     
 }
 
@@ -189,6 +196,7 @@ button:focus {outline:0;}
 
 .deal p{
     text-align: center;
+    color: #555;
 } 
 
 
@@ -241,7 +249,34 @@ button:focus {outline:0;}
 /*-----------------About frame begins----------------*/
 
 .about{
+    
+
     background-color: #ffbb55;
     height: 35rem;
+
+    display: flex;
+    align-items: center;
+    
 }
+
+.abouttext{
+    
+    padding:0 10% 0 10%;
+    text-align: center;
+}
+
+.abouttext h2{
+    margin-top: 10rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color:#fff;
+}
+
+.abouttext p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#555;
+}
+
 
