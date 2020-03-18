@@ -301,7 +301,7 @@ button:focus {outline:0;}
 .boxes em{
 
     font-size: 2rem;
-    color:#333;
+    color: rgba(50,50,50,0.7);
 }
 
 .centertext{
