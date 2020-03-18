@@ -106,3 +106,26 @@ button:focus {outline:0;}
 }
 
 /*------TOP FRAME STOPS HERE --------*/
+
+
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+.divlink{
+    
+    padding:1rem;
+}
+
+.divlink:hover, .divlink:hover a{
+
+    background-color:#a1a1a1;
+    font-weight: bolder;
+}
+
+/* ------ finacial saftey frame ----------------------*/
+
