@@ -1,0 +1,42 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.top{
+    
+    height: 30rem;
+    background-color: #aaddff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+/*---------TopFrame-------------*/
+
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    justify-content: space-evenly;
+}
+
+.divlink{
+    
+    padding:2rem;
+}
+
+/*------------------form---------------*/
+
