@@ -166,14 +166,71 @@ button:focus {outline:0;}
     justify-content: space-evenly;
 }
 
-.pic{
-    width: 7rem;
-    height: 7rem;
-    background-image: url("../img/family.png");
-    background-size: 100%;
+.deal{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 16rem;
+    margin-bottom: -7rem;
+
+}
+
+.deal h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+.deal p{
+    text-align: center;
+} 
+
+
+
+.pic1{
+    width: 14rem;
+    height: 10rem;
+    margin:0 auto;
+    margin-top: -3rem;
+    border-top: 1rem solid  #add8ff;
+    background-image: url("../img/child.png");
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: center top;
     background-color: #add8ff;
+
+    border-radius: 10px;
+}
+
+.pic2{
+    width: 14rem;
+    height: 10rem;
+    margin:0 auto;
+    margin-top: -3rem;
+    border-top: 1rem solid  #ffbb55;
+    background-image: url("../img/adult.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #ffbb55;
+
+    border-radius: 10px;
+}
+
+.pic3{
+    width: 14rem;
+    height: 10rem;
+    margin:0 auto;
+    margin-top: -3rem;
+    border-top: 1rem solid  #ff8f5d;
+    background-image: url("../img/old.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #ff8f5d;
+
+    border-radius: 10px;
 }
 
 .about{
