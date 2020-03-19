@@ -94,7 +94,12 @@ button{
     width: 7rem;
     height: 2rem;
     text-decoration: #111;
+    transition: transform ease-in 500ms;
     
+}
+
+button:active{
+    transform: scale(0.1);
 }
 
 button:focus {outline:0;}
