@@ -120,13 +120,15 @@ button:focus {outline:0;}
 
 .divlink{
     
-    padding:1rem;
+    padding:2rem;
+    font-weight: bold;
 }
 
 .divlink:hover, .divlink:hover a{
 
-    background-color:#a1a1a1;
+    background-color:#a5a5a5;
     font-weight: bolder;
+    transition: background-color ease-in 500ms, font-weight ease-in 1s;
 }
 
 /* ------ finacial saftey frame ----------------------*/
