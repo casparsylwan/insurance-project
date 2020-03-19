@@ -1,3 +1,5 @@
+
+/*
 body{
     background-color: #f1f1f1;
 }
@@ -30,7 +32,8 @@ body{
     font-weight: bolder;
 }
 
-/*---------TopFrame-------------*/
+
+/*---------TopFrame-------------
 
 .navbar{
     
@@ -52,11 +55,11 @@ body{
     transition: background-color ease-in 500ms, font-weight ease-in 1s;
 }
 
-.divlink:hover{
+.divlink-contact:hover{
     background-color: #a99;
     font-weight: bolder;
 }
-
+*/
 /*------------------form---------------*/
 
 .contact{
