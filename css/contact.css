@@ -7,11 +7,18 @@ body{
     margin: 0 auto;
 }
 
-.top{
+.top-contact{
     
     height: 30rem;
     background-color: #aaddff;
     width: 100%;
+    
+    background-image: url("../img/man-and-baby.svg");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 97% bottom;
+    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,8 +36,13 @@ body{
     
     display: flex;
     flex-direction: row;
-    background-color: #fff;
+    
     justify-content: space-evenly;
+}
+
+.contact{
+
+    background-color: #fff;
 }
 
 .divlink{
