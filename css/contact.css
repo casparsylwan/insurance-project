@@ -36,6 +36,13 @@ body{
 .divlink{
     
     padding:2rem;
+    font-weight: bold;
+    transition: background-color ease-in 500ms, font-weight ease-in 1s;
+}
+
+.divlink:hover{
+    background-color: #a99;
+    font-weight: bolder;
 }
 
 /*------------------form---------------*/
