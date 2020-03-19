@@ -154,6 +154,7 @@ button{
     width: 7rem;
     height: 2rem;
     text-decoration: #111;
+    box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.59);
     transition: transform ease-in 500ms;
     
 }
@@ -248,6 +249,7 @@ button:focus {outline:0;}
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
 .deal{
@@ -256,6 +258,7 @@ button:focus {outline:0;}
     padding: 1rem;
     max-width: 16rem;
    margin-bottom: -10rem; 
+   box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.59);
    transition: transform ease-in 500ms;
 
 }
