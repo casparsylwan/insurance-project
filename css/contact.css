@@ -122,7 +122,52 @@ textarea{
     font-size: 0.7rem;
     font-weight: bold;
     border: none;
+    transition: transform ease-in 500ms;
     
 }
 
 .sub:focus {outline:0;}
+
+.sub:active{
+    transform: scale(0.1);
+}
+
+.map{
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    background-color: #555;
+}
+
+
+.adress{
+    position:absolute;
+    margin: 6rem 0 0 5vw;
+    width: 40%;
+    height: 15rem;
+    background-color: #f5bd3f;
+}
+
+.adress h2, .adress p{
+    color:#fff;
+    padding-left: 10%;
+    padding-bottom: 1rem;
+
+    font-weight: bold;
+    
+
+}
+
+.adress h2{
+    padding-top: 1rem;
+    font-size: 3rem;
+
+}
+
+
+/*-------------Las div ------------------*/
+.lastgrey{
+    width: 100%;
+    height: 30rem;
+    background-color: #999;
+}
