@@ -113,6 +113,8 @@ textarea{
     resize: none;
 }
 
+
+
 .sub{
     float: right;
     margin-top: 3rem;
@@ -147,6 +149,8 @@ textarea{
     height: 15rem;
     background-color: #f5bd3f;
 }
+
+
 
 .adress h2, .adress p{
     color:#fff;
